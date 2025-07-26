@@ -6,7 +6,7 @@ plugins {
 }
 
 // Generate Javadoc (Dokka) Jar
-tasks.register<Jar>("dokkaHtmlJar") {
+val dokkaHtmlJar = tasks.register<Jar>("dokkaHtmlJar") {
   archiveClassifier.set("javadoc")
   from("${layout.buildDirectory}/dokka")
   dependsOn(tasks.dokkaGenerate)
@@ -47,7 +47,7 @@ publishing {
   }
 
   publications.withType<MavenPublication>().forEach { publication ->
-    publication.artifact(tasks.getByName("dokkaHtmlJar"))
+    publication.artifact(dokkaHtmlJar)
 
     publication.pom {
       name.set("klibnanolog")
