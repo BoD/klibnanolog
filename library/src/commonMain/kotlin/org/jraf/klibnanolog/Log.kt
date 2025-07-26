@@ -22,15 +22,18 @@
  * limitations under the License.
  */
 
+@file:Suppress("unused")
+
 package org.jraf.klibnanolog
 
-import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.format
 import kotlinx.datetime.format.FormatStringsInDatetimeFormats
 import kotlinx.datetime.format.byUnicodePattern
 import kotlinx.datetime.toLocalDateTime
+import kotlin.time.Clock
+import kotlin.time.ExperimentalTime
 
 enum class LogLevel {
   DEBUG,
@@ -50,6 +53,7 @@ private val DATE_TIME_FORMAT by lazy {
   }
 }
 
+@OptIn(ExperimentalTime::class)
 private fun log(
   level: LogLevel,
   message: String,

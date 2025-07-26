@@ -18,6 +18,12 @@ kotlin {
   macosArm64()
   linuxX64()
   linuxArm64()
+  js {
+    browser()
+    compilerOptions {
+      target.set("es2015")
+    }
+  }
 
   sourceSets {
     commonMain {
