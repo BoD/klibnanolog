@@ -1,15 +1,10 @@
-allprojects {
-  repositories {
-    mavenLocal()
-    mavenCentral()
-  }
-
-  group = "org.jraf"
-  version = "1.1.0"
-}
-
 plugins {
   kotlin("multiplatform").apply(false)
+}
+
+allprojects {
+  group = "org.jraf"
+  version = "1.1.0"
 }
 
 // `./gradlew refreshVersions` to update dependencies
