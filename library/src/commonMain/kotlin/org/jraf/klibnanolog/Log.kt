@@ -43,7 +43,6 @@ enum class LogLevel {
   NONE,
 }
 
-
 var logLevel = LogLevel.DEBUG
 
 private val DATE_TIME_FORMAT by lazy {
@@ -60,44 +59,60 @@ private fun log(
   throwable: Throwable? = null,
 ) {
   if (level < logLevel) return
-  print(Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).format(DATE_TIME_FORMAT))
-  print(
-    when (level) {
-      LogLevel.DEBUG -> " D "
-      LogLevel.INFO -> " I "
-      LogLevel.WARNING -> " W "
-      LogLevel.ERROR -> " E "
-      LogLevel.NONE -> {
-        // Should never happen
-      }
-    },
-  )
-  println(message)
-  if (throwable != null) {
-    println(throwable.stackTraceToString())
+  val log = buildString {
+    append(Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).format(DATE_TIME_FORMAT))
+    append(
+      when (level) {
+        LogLevel.DEBUG -> " D "
+        LogLevel.INFO -> " I "
+        LogLevel.WARNING -> " W "
+        LogLevel.ERROR -> " E "
+        LogLevel.NONE -> {
+          // Should never happen
+          ""
+        }
+      },
+    )
+    append(message)
+    if (throwable != null) {
+      append("\n")
+      append(throwable.stackTraceToString())
+    }
   }
+  println(log)
 }
 
-fun logd(s: String) {
-  log(LogLevel.DEBUG, s)
+fun logd(o: Any?) {
+  log(LogLevel.DEBUG, o.toString())
 }
 
-fun logi(s: String) {
-  log(LogLevel.INFO, s)
+fun logd(t: Throwable, o: Any?) {
+  log(LogLevel.DEBUG, o.toString(), t)
 }
 
-fun logw(t: Throwable, s: String) {
-  log(LogLevel.WARNING, s, t)
+
+fun logi(o: Any?) {
+  log(LogLevel.INFO, o.toString())
 }
 
-fun logw(s: String) {
-  log(LogLevel.WARNING, s)
+fun logi(t: Throwable, o: Any?) {
+  log(LogLevel.INFO, o.toString(), t)
 }
 
-fun loge(s: String) {
-  log(LogLevel.ERROR, s)
+
+fun logw(t: Throwable, o: Any?) {
+  log(LogLevel.WARNING, o.toString(), t)
 }
 
-fun loge(t: Throwable, s: String) {
-  log(LogLevel.ERROR, s, t)
+fun logw(o: Any?) {
+  log(LogLevel.WARNING, o.toString())
+}
+
+
+fun loge(o: Any?) {
+  log(LogLevel.ERROR, o.toString())
+}
+
+fun loge(t: Throwable, o: Any?) {
+  log(LogLevel.ERROR, o.toString(), t)
 }

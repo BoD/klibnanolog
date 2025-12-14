@@ -1,11 +1,11 @@
+import com.gradleup.librarian.gradle.Librarian
+
 plugins {
   kotlin("multiplatform").apply(false)
+  id("com.gradleup.librarian").apply(false)
 }
 
-allprojects {
-  group = "org.jraf"
-  version = "1.1.0"
-}
+Librarian.root(project)
 
 // `./gradlew refreshVersions` to update dependencies
 // `./gradlew publishToMavenLocal` to publish to local Maven repository

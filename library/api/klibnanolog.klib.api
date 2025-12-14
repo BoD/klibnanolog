@@ -1,0 +1,34 @@
+// Klib ABI Dump
+// Targets: [js, linuxArm64, linuxX64, macosArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <org.jraf.klibnanolog:klibnanolog>
+final enum class org.jraf.klibnanolog/LogLevel : kotlin/Enum<org.jraf.klibnanolog/LogLevel> { // org.jraf.klibnanolog/LogLevel|null[0]
+    enum entry DEBUG // org.jraf.klibnanolog/LogLevel.DEBUG|null[0]
+    enum entry ERROR // org.jraf.klibnanolog/LogLevel.ERROR|null[0]
+    enum entry INFO // org.jraf.klibnanolog/LogLevel.INFO|null[0]
+    enum entry NONE // org.jraf.klibnanolog/LogLevel.NONE|null[0]
+    enum entry WARNING // org.jraf.klibnanolog/LogLevel.WARNING|null[0]
+
+    final val entries // org.jraf.klibnanolog/LogLevel.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<org.jraf.klibnanolog/LogLevel> // org.jraf.klibnanolog/LogLevel.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): org.jraf.klibnanolog/LogLevel // org.jraf.klibnanolog/LogLevel.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<org.jraf.klibnanolog/LogLevel> // org.jraf.klibnanolog/LogLevel.values|values#static(){}[0]
+}
+
+final var org.jraf.klibnanolog/logLevel // org.jraf.klibnanolog/logLevel|{}logLevel[0]
+    final fun <get-logLevel>(): org.jraf.klibnanolog/LogLevel // org.jraf.klibnanolog/logLevel.<get-logLevel>|<get-logLevel>(){}[0]
+    final fun <set-logLevel>(org.jraf.klibnanolog/LogLevel) // org.jraf.klibnanolog/logLevel.<set-logLevel>|<set-logLevel>(org.jraf.klibnanolog.LogLevel){}[0]
+
+final fun org.jraf.klibnanolog/logd(kotlin/Any?) // org.jraf.klibnanolog/logd|logd(kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/logd(kotlin/Throwable, kotlin/Any?) // org.jraf.klibnanolog/logd|logd(kotlin.Throwable;kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/loge(kotlin/Any?) // org.jraf.klibnanolog/loge|loge(kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/loge(kotlin/Throwable, kotlin/Any?) // org.jraf.klibnanolog/loge|loge(kotlin.Throwable;kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/logi(kotlin/Any?) // org.jraf.klibnanolog/logi|logi(kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/logi(kotlin/Throwable, kotlin/Any?) // org.jraf.klibnanolog/logi|logi(kotlin.Throwable;kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/logw(kotlin/Any?) // org.jraf.klibnanolog/logw|logw(kotlin.Any?){}[0]
+final fun org.jraf.klibnanolog/logw(kotlin/Throwable, kotlin/Any?) // org.jraf.klibnanolog/logw|logw(kotlin.Throwable;kotlin.Any?){}[0]
