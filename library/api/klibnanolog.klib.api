@@ -23,6 +23,9 @@ final enum class org.jraf.klibnanolog/LogLevel : kotlin/Enum<org.jraf.klibnanolo
 final var org.jraf.klibnanolog/logLevel // org.jraf.klibnanolog/logLevel|{}logLevel[0]
     final fun <get-logLevel>(): org.jraf.klibnanolog/LogLevel // org.jraf.klibnanolog/logLevel.<get-logLevel>|<get-logLevel>(){}[0]
     final fun <set-logLevel>(org.jraf.klibnanolog/LogLevel) // org.jraf.klibnanolog/logLevel.<set-logLevel>|<set-logLevel>(org.jraf.klibnanolog.LogLevel){}[0]
+final var org.jraf.klibnanolog/logToStdErr // org.jraf.klibnanolog/logToStdErr|{}logToStdErr[0]
+    final fun <get-logToStdErr>(): kotlin/Boolean // org.jraf.klibnanolog/logToStdErr.<get-logToStdErr>|<get-logToStdErr>(){}[0]
+    final fun <set-logToStdErr>(kotlin/Boolean) // org.jraf.klibnanolog/logToStdErr.<set-logToStdErr>|<set-logToStdErr>(kotlin.Boolean){}[0]
 
 final fun org.jraf.klibnanolog/logd(kotlin/Any?) // org.jraf.klibnanolog/logd|logd(kotlin.Any?){}[0]
 final fun org.jraf.klibnanolog/logd(kotlin/Throwable, kotlin/Any?) // org.jraf.klibnanolog/logd|logd(kotlin.Throwable;kotlin.Any?){}[0]

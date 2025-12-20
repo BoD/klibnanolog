@@ -44,6 +44,7 @@ enum class LogLevel {
 }
 
 var logLevel = LogLevel.DEBUG
+var logToStdErr = false
 
 private val DATE_TIME_FORMAT by lazy {
   LocalDateTime.Format {
@@ -79,7 +80,11 @@ private fun log(
       append(throwable.stackTraceToString())
     }
   }
-  println(log)
+  if (logToStdErr) {
+    printLnStderr(log)
+  } else {
+    println(log)
+  }
 }
 
 fun logd(o: Any?) {
@@ -116,3 +121,5 @@ fun loge(o: Any?) {
 fun loge(t: Throwable, o: Any?) {
   log(LogLevel.ERROR, o.toString(), t)
 }
+
+internal expect fun printLnStderr(message: String)

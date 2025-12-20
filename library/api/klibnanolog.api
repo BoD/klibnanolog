@@ -1,5 +1,6 @@
 public final class org/jraf/klibnanolog/LogKt {
 	public static final fun getLogLevel ()Lorg/jraf/klibnanolog/LogLevel;
+	public static final fun getLogToStdErr ()Z
 	public static final fun logd (Ljava/lang/Object;)V
 	public static final fun logd (Ljava/lang/Throwable;Ljava/lang/Object;)V
 	public static final fun loge (Ljava/lang/Object;)V
@@ -9,6 +10,7 @@ public final class org/jraf/klibnanolog/LogKt {
 	public static final fun logw (Ljava/lang/Object;)V
 	public static final fun logw (Ljava/lang/Throwable;Ljava/lang/Object;)V
 	public static final fun setLogLevel (Lorg/jraf/klibnanolog/LogLevel;)V
+	public static final fun setLogToStdErr (Z)V
 }
 
 public final class org/jraf/klibnanolog/LogLevel : java/lang/Enum {
