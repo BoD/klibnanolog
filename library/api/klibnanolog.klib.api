@@ -20,6 +20,9 @@ final enum class org.jraf.klibnanolog/LogLevel : kotlin/Enum<org.jraf.klibnanolo
     final fun values(): kotlin/Array<org.jraf.klibnanolog/LogLevel> // org.jraf.klibnanolog/LogLevel.values|values#static(){}[0]
 }
 
+final val org.jraf.klibnanolog/VERSION // org.jraf.klibnanolog/VERSION|{}VERSION[0]
+    final fun <get-VERSION>(): kotlin/String // org.jraf.klibnanolog/VERSION.<get-VERSION>|<get-VERSION>(){}[0]
+
 final var org.jraf.klibnanolog/logLevel // org.jraf.klibnanolog/logLevel|{}logLevel[0]
     final fun <get-logLevel>(): org.jraf.klibnanolog/LogLevel // org.jraf.klibnanolog/logLevel.<get-logLevel>|<get-logLevel>(){}[0]
     final fun <set-logLevel>(org.jraf.klibnanolog/LogLevel) // org.jraf.klibnanolog/logLevel.<set-logLevel>|<set-logLevel>(org.jraf.klibnanolog.LogLevel){}[0]

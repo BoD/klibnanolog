@@ -24,3 +24,7 @@ public final class org/jraf/klibnanolog/LogLevel : java/lang/Enum {
 	public static fun values ()[Lorg/jraf/klibnanolog/LogLevel;
 }
 
+public final class org/jraf/klibnanolog/VersionKt {
+	public static final field VERSION Ljava/lang/String;
+}
+
