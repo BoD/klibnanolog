@@ -1,0 +1,6 @@
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version = "2.3.0" }
+librarian = { id = "com.gradleup.librarian", version = "0.2.2-SNAPSHOT" }
+
+[libraries]
+kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version = "0.7.1" }

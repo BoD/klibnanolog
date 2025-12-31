@@ -1,7 +1,7 @@
 import com.gradleup.librarian.gradle.Librarian
 
 plugins {
-  kotlin("multiplatform")
+  alias(libs.plugins.kotlin.multiplatform)
 }
 
 kotlin {
@@ -19,7 +19,7 @@ kotlin {
   sourceSets {
     commonMain {
       dependencies {
-        implementation(KotlinX.datetime)
+        implementation(libs.kotlinx.datetime)
       }
     }
   }
