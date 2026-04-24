@@ -2,6 +2,7 @@
 kotlin = "2.3.21"
 librarian = "0.2.2-SNAPSHOT"
 kotlinx-datetime = "0.7.1"
+slf4j = "2.0.17"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
@@ -9,3 +10,4 @@ librarian = { id = "com.gradleup.librarian", version.ref = "librarian" }
 
 [libraries]
 kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinx-datetime" }
+slf4j-api = { group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j" }

@@ -22,6 +22,12 @@ kotlin {
         implementation(libs.kotlinx.datetime)
       }
     }
+
+    jvmMain {
+      dependencies {
+        implementation(libs.slf4j.api)
+      }
+    }
   }
 }
 
