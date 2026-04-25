@@ -1,9 +1,13 @@
 # Next version (unreleased)
 
+# v1.1.0
+
+- SLF4J adapter
+
 # v1.0.1
 
-Keep Java 11 compat
+- Keep Java 11 compat
 
 # v1.0.0
 
-Initial release 🎉
+- Initial release 🎉
