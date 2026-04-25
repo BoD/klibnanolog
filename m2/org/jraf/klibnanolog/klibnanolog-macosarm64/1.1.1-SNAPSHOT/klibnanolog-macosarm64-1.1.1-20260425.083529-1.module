@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibnanolog/1.1.1-SNAPSHOT/klibnanolog-1.1.1-SNAPSHOT.module",
+    "group": "org.jraf.klibnanolog",
+    "module": "klibnanolog",
+    "version": "1.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-macosArm64Main-1.1.1-SNAPSHOT.klib",
+          "url": "klibnanolog-macosarm64-1.1.1-SNAPSHOT.klib",
+          "size": 10600,
+          "sha512": "19538419084e35c6c4d20c382403d7e9b1af5cce1dce185506717ebcd3af9c08dadedf8840706b39534301141fced372e26f336ee2adef772e63802591c541c9",
+          "sha256": "6e24a6c15e9462bf1e4807b73431770db28c000eefb2b61eb40b7a646ee3d83b",
+          "sha1": "f2b722e14a5efe8589cee00c13ccb8f9d04224a6",
+          "md5": "c424483f82a4d6859eb0be1b6be3a445"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "klibnanolog-macosarm64-1.1.1-SNAPSHOT-sources.jar",
+          "url": "klibnanolog-macosarm64-1.1.1-SNAPSHOT-sources.jar",
+          "size": 3545,
+          "sha512": "76e13a0ca8841226dc2a5850817e53491a2ce7874abbd85db554f7ac88c34fdb083ff966346c52d9e08ca006f20b201b964d9bbd936587cece8a0878379d5b6f",
+          "sha256": "a86adb8f376a7644131153d84102fb09d96ea1aa72e85dd5dbcecb116fb0ccbd",
+          "sha1": "e8765b710a6172bb348ac056eeb1baa47687ce9d",
+          "md5": "5c9fb4e472483241f38ffec7b5e2bd4f"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-macosarm64-1.1.1-SNAPSHOT-metadata.jar",
+          "url": "klibnanolog-macosarm64-1.1.1-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
