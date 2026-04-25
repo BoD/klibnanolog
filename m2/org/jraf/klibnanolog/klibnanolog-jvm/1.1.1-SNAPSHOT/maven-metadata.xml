@@ -3,38 +3,38 @@
   <groupId>org.jraf.klibnanolog</groupId>
   <artifactId>klibnanolog-jvm</artifactId>
   <versioning>
-    <lastUpdated>20260425083624</lastUpdated>
+    <lastUpdated>20260425085631</lastUpdated>
     <snapshot>
-      <timestamp>20260425.083624</timestamp>
+      <timestamp>20260425.085631</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.1.1-20260425.083624-1</value>
-        <updated>20260425083624</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.1.1-20260425.083624-1</value>
-        <updated>20260425083624</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>pom</extension>
-        <value>1.1.1-20260425.083624-1</value>
-        <updated>20260425083624</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.1.1-20260425.083624-1</value>
-        <updated>20260425083624</updated>
+        <value>1.1.1-20260425.085631-1</value>
+        <updated>20260425085631</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.1.1-20260425.083624-1</value>
-        <updated>20260425083624</updated>
+        <value>1.1.1-20260425.085631-1</value>
+        <updated>20260425085631</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.1.1-20260425.085631-1</value>
+        <updated>20260425085631</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.1.1-20260425.085631-1</value>
+        <updated>20260425085631</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.1.1-20260425.085631-1</value>
+        <updated>20260425085631</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
