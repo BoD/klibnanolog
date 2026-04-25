@@ -1,0 +1,294 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jraf.klibnanolog",
+    "module": "klibnanolog",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-metadata-1.1.0.jar",
+          "url": "klibnanolog-1.1.0.jar",
+          "size": 5151,
+          "sha512": "5e5e51cabab33f11c8a2742b1a00930fd55a0212620361660a3a5c4e0a86868edb60722063a177a110ac03dbd28c5bcdb1cb4652fd171d146ac981715de0c027",
+          "sha256": "7c71ffb5f85f7a1b3aa816424d848699f2659cd72d42337e335c29acd3f605f6",
+          "sha1": "6943b015bea7dc8e4d9d873a9af5a2c7848f4d09",
+          "md5": "e11aceab9ac8f6b59619a977a6b89212"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "klibnanolog-kotlin-1.1.0-sources.jar",
+          "url": "klibnanolog-1.1.0-sources.jar",
+          "size": 3538,
+          "sha512": "bfc136177f84b8ab8de137524d834005723da9dee93ac227f863e26ce9157fb606d91653b813bd645624403e2aed5fa2a61673fd30900312ac71375a560888b7",
+          "sha256": "55c10a10fc7143751a642a3fa576f49319f57da1a624a67180016a2c98ec7305",
+          "sha1": "7c6613bea1b915da66e0026ab892e6dffd06d3a3",
+          "md5": "6a0b5081606b54bd172794219c5de9fa"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-js/1.1.0/klibnanolog-js-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-js",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-js/1.1.0/klibnanolog-js-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-js",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-js/1.1.0/klibnanolog-js-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-js",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-jvm/1.1.0/klibnanolog-jvm-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-jvm",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-jvm/1.1.0/klibnanolog-jvm-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-jvm",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-jvm/1.1.0/klibnanolog-jvm-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-jvm",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-linuxarm64/1.1.0/klibnanolog-linuxarm64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-linuxarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-linuxarm64/1.1.0/klibnanolog-linuxarm64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-linuxarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-linuxx64/1.1.0/klibnanolog-linuxx64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-linuxx64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-linuxx64/1.1.0/klibnanolog-linuxx64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-linuxx64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-macosarm64/1.1.0/klibnanolog-macosarm64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-macosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-macosarm64/1.1.0/klibnanolog-macosarm64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-macosarm64",
+        "version": "1.1.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibnanolog-macosarm64/1.1.0/klibnanolog-macosarm64-1.1.0.module",
+        "group": "org.jraf.klibnanolog",
+        "module": "klibnanolog-macosarm64",
+        "version": "1.1.0"
+      }
+    }
+  ]
+}
