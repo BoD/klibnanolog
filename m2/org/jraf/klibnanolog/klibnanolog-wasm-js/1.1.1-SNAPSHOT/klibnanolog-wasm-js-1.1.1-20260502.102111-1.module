@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibnanolog/1.1.1-SNAPSHOT/klibnanolog-1.1.1-SNAPSHOT.module",
+    "group": "org.jraf.klibnanolog",
+    "module": "klibnanolog",
+    "version": "1.1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-wasm-js-1.1.1-SNAPSHOT.klib",
+          "url": "klibnanolog-wasm-js-1.1.1-SNAPSHOT.klib",
+          "size": 10934,
+          "sha512": "0799b5c441a40fab9eab944980c96b421aa5fde9fa14bd7d171372dfbc624f949ee68f8d4ee8a4c77d7373c85b8eaba3634505957cd026f00b290cb34e90e563",
+          "sha256": "50dc46d26337c65aba9c47346115905261401cbe3007762498922347de3cca5c",
+          "sha1": "eb0112e14b9344033c5fca28db44c9f5977e678a",
+          "md5": "8777d097c5af68d6f0da37042dc84e3d"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-wasm-js-1.1.1-SNAPSHOT.klib",
+          "url": "klibnanolog-wasm-js-1.1.1-SNAPSHOT.klib",
+          "size": 10934,
+          "sha512": "0799b5c441a40fab9eab944980c96b421aa5fde9fa14bd7d171372dfbc624f949ee68f8d4ee8a4c77d7373c85b8eaba3634505957cd026f00b290cb34e90e563",
+          "sha256": "50dc46d26337c65aba9c47346115905261401cbe3007762498922347de3cca5c",
+          "sha1": "eb0112e14b9344033c5fca28db44c9f5977e678a",
+          "md5": "8777d097c5af68d6f0da37042dc84e3d"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "klibnanolog-wasm-js-1.1.1-SNAPSHOT-sources.jar",
+          "url": "klibnanolog-wasm-js-1.1.1-SNAPSHOT-sources.jar",
+          "size": 4824,
+          "sha512": "f7a69ca95c010dc1d5ce9087381d0ab0da0473c74933e84484ea07f1f05fc51b458ba16842eabf6a812b63355898f90c7b84d30e347d82395294526b1aef74ab",
+          "sha256": "3664dd55484a45297607d29861d37ab2f501d2f5b002b49dc82481483dccd477",
+          "sha1": "d56de67127ceefc4f5e907b2850627193b9aa2ee",
+          "md5": "d0e40c61d7c4a33f32443b15fa755d2f"
+        }
+      ]
+    }
+  ]
+}
