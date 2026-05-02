@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibnanolog/1.2.1-SNAPSHOT/klibnanolog-1.2.1-SNAPSHOT.module",
+    "group": "org.jraf.klibnanolog",
+    "module": "klibnanolog",
+    "version": "1.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-jvm-1.2.1-SNAPSHOT.jar",
+          "url": "klibnanolog-jvm-1.2.1-SNAPSHOT.jar",
+          "size": 13336,
+          "sha512": "3187ccd03c4156f4bd262af62857ff14e9192a513cda58e540ea92963664330dcd65970daf8d04221906c83d31ff0dd56c96315b41e89f13e7d8c51374ec54d6",
+          "sha256": "fb7ce4335145f6779f7cad66ad10df9683dd77666f651742f998e61e1545efcb",
+          "sha1": "ed40e566403aced01fcbbd7b9cd27e43698e83e2",
+          "md5": "c3df72d26a5fe47ed7abb6cdf31ce790"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-jvm-1.2.1-SNAPSHOT.jar",
+          "url": "klibnanolog-jvm-1.2.1-SNAPSHOT.jar",
+          "size": 13336,
+          "sha512": "3187ccd03c4156f4bd262af62857ff14e9192a513cda58e540ea92963664330dcd65970daf8d04221906c83d31ff0dd56c96315b41e89f13e7d8c51374ec54d6",
+          "sha256": "fb7ce4335145f6779f7cad66ad10df9683dd77666f651742f998e61e1545efcb",
+          "sha1": "ed40e566403aced01fcbbd7b9cd27e43698e83e2",
+          "md5": "c3df72d26a5fe47ed7abb6cdf31ce790"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "klibnanolog-jvm-1.2.1-SNAPSHOT-sources.jar",
+          "url": "klibnanolog-jvm-1.2.1-SNAPSHOT-sources.jar",
+          "size": 7900,
+          "sha512": "04cb277cbfb1f6b298b722a39b50081207f600c251f8d66e8951011bf2e223b7f92b0812bdd9045e9216884255c756cba717265cfc3109c040cd287bf42d9063",
+          "sha256": "783db7daa5bf3ed11f0299d188f42095983a58ba925f3458ebdf668dc2b15481",
+          "sha1": "039d9d1c53bf7cc1006672d7895a78256cf38674",
+          "md5": "26f883c89862c47c6957a9f38150b7b7"
+        }
+      ]
+    }
+  ]
+}

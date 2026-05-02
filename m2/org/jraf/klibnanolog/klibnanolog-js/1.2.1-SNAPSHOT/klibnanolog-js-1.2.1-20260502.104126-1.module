@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibnanolog/1.2.1-SNAPSHOT/klibnanolog-1.2.1-SNAPSHOT.module",
+    "group": "org.jraf.klibnanolog",
+    "module": "klibnanolog",
+    "version": "1.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-js-1.2.1-SNAPSHOT.klib",
+          "url": "klibnanolog-js-1.2.1-SNAPSHOT.klib",
+          "size": 10932,
+          "sha512": "82e9951fab710cc6430b8c7f95b2d738bed8ba272f2da8f2014c9287d27c940c4b00ca53134c4ca2d09cfd8f8b3b401c148d27191148d15dc08fe1d4f430f44d",
+          "sha256": "8415f076e8b46184aa1d693505379e0a618703470b95719ff1740cdc425affe5",
+          "sha1": "9f8db17b74416cecae1bab913ef60569be51a004",
+          "md5": "035db440a7c6a8055eb3dcae84b6ef48"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-js-1.2.1-SNAPSHOT.klib",
+          "url": "klibnanolog-js-1.2.1-SNAPSHOT.klib",
+          "size": 10932,
+          "sha512": "82e9951fab710cc6430b8c7f95b2d738bed8ba272f2da8f2014c9287d27c940c4b00ca53134c4ca2d09cfd8f8b3b401c148d27191148d15dc08fe1d4f430f44d",
+          "sha256": "8415f076e8b46184aa1d693505379e0a618703470b95719ff1740cdc425affe5",
+          "sha1": "9f8db17b74416cecae1bab913ef60569be51a004",
+          "md5": "035db440a7c6a8055eb3dcae84b6ef48"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "klibnanolog-js-1.2.1-SNAPSHOT-sources.jar",
+          "url": "klibnanolog-js-1.2.1-SNAPSHOT-sources.jar",
+          "size": 4825,
+          "sha512": "95b0ff31547bc87753cb3acfdaaf54ff42ff7146620148deccf0963228fd5dc68aac4cc8d2ddaafd1a98fade95cbe4d8e91dbba94f25fb7aebfdf30e7514584e",
+          "sha256": "3538355b88dde2f12282a8c3f3ca7401137592e01b64017ade65d309c21816fa",
+          "sha1": "f11fe1536bebc8c1975667bd16608cb66bcf1b8f",
+          "md5": "dd902148e0b9059adab9bb2728087787"
+        }
+      ]
+    }
+  ]
+}
