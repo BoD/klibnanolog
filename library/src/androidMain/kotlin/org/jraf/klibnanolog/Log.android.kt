@@ -7,7 +7,7 @@
  *                              /___/
  * repository.
  *
- * Copyright (C) 2025-present Benoit 'BoD' Lubek (BoD@JRAF.org)
+ * Copyright (C) 2026-present Benoit 'BoD' Lubek (BoD@JRAF.org)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,6 +24,21 @@
 
 package org.jraf.klibnanolog
 
+import android.util.Log
+
+internal actual fun log(level: LogLevel, message: String, throwable: Throwable?) {
+  if (level < logLevel) return
+  when (level) {
+    LogLevel.DEBUG -> Log.d(tag, message, throwable)
+    LogLevel.INFO -> Log.i(tag, message, throwable)
+    LogLevel.WARNING -> Log.w(tag, message, throwable)
+    LogLevel.ERROR -> Log.e(tag, message, throwable)
+    LogLevel.NONE -> {
+      // Should never happen
+    }
+  }
+}
+
 internal actual fun printLnStderr(message: String) {
-  console.error(message)
+  // No-op on Android
 }

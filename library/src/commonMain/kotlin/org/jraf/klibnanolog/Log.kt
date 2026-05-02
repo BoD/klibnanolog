@@ -26,15 +26,6 @@
 
 package org.jraf.klibnanolog
 
-import kotlinx.datetime.LocalDateTime
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.format
-import kotlinx.datetime.format.FormatStringsInDatetimeFormats
-import kotlinx.datetime.format.byUnicodePattern
-import kotlinx.datetime.toLocalDateTime
-import kotlin.time.Clock
-import kotlin.time.ExperimentalTime
-
 enum class LogLevel {
   DEBUG,
   INFO,
@@ -44,48 +35,18 @@ enum class LogLevel {
 }
 
 var logLevel = LogLevel.DEBUG
+
+// Ignored on Android
 var logToStdErr = false
 
-private val DATE_TIME_FORMAT by lazy {
-  LocalDateTime.Format {
-    @OptIn(FormatStringsInDatetimeFormats::class)
-    byUnicodePattern("yyyy-MM-dd HH:mm:ss")
-  }
-}
+// Only used for Android
+var tag = "xxx"
 
-@OptIn(ExperimentalTime::class)
-private fun log(
+internal expect fun log(
   level: LogLevel,
   message: String,
   throwable: Throwable? = null,
-) {
-  if (level < logLevel) return
-  val log = buildString {
-    append(Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).format(DATE_TIME_FORMAT))
-    append(
-      when (level) {
-        LogLevel.DEBUG -> " D "
-        LogLevel.INFO -> " I "
-        LogLevel.WARNING -> " W "
-        LogLevel.ERROR -> " E "
-        LogLevel.NONE -> {
-          // Should never happen
-          ""
-        }
-      },
-    )
-    append(message)
-    if (throwable != null) {
-      append("\n")
-      append(throwable.stackTraceToString())
-    }
-  }
-  if (logToStdErr) {
-    printLnStderr(log)
-  } else {
-    println(log)
-  }
-}
+)
 
 fun logd(o: Any?) {
   log(LogLevel.DEBUG, o.toString())

@@ -1,5 +1,9 @@
 # Next version (unreleased)
 
+# v1.2.0
+
+- Add Android target
+
 # v1.1.0
 
 - SLF4J adapter
