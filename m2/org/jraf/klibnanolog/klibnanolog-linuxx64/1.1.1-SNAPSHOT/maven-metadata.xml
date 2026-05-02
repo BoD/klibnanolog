@@ -3,38 +3,38 @@
   <groupId>org.jraf.klibnanolog</groupId>
   <artifactId>klibnanolog-linuxx64</artifactId>
   <versioning>
-    <lastUpdated>20260502102111</lastUpdated>
+    <lastUpdated>20260502102157</lastUpdated>
     <snapshot>
-      <timestamp>20260502.102111</timestamp>
+      <timestamp>20260502.102157</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.1.1-20260502.102111-1</value>
-        <updated>20260502102111</updated>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.1.1-20260502.102157-1</value>
+        <updated>20260502102157</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.1.1-20260502.102157-1</value>
+        <updated>20260502102157</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.1.1-20260502.102111-1</value>
-        <updated>20260502102111</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.1.1-20260502.102111-1</value>
-        <updated>20260502102111</updated>
+        <value>1.1.1-20260502.102157-1</value>
+        <updated>20260502102157</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>1.1.1-20260502.102111-1</value>
-        <updated>20260502102111</updated>
+        <value>1.1.1-20260502.102157-1</value>
+        <updated>20260502102157</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.1.1-20260502.102111-1</value>
-        <updated>20260502102111</updated>
+        <extension>pom</extension>
+        <value>1.1.1-20260502.102157-1</value>
+        <updated>20260502102157</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
