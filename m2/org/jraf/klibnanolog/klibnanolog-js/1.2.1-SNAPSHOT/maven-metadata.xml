@@ -3,38 +3,38 @@
   <groupId>org.jraf.klibnanolog</groupId>
   <artifactId>klibnanolog-js</artifactId>
   <versioning>
-    <lastUpdated>20260502104126</lastUpdated>
+    <lastUpdated>20260502104215</lastUpdated>
     <snapshot>
-      <timestamp>20260502.104126</timestamp>
+      <timestamp>20260502.104215</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>module</extension>
+        <value>1.2.1-20260502.104215-1</value>
+        <updated>20260502104215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.2.1-20260502.104126-1</value>
-        <updated>20260502104126</updated>
+        <value>1.2.1-20260502.104215-1</value>
+        <updated>20260502104215</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.1-20260502.104215-1</value>
+        <updated>20260502104215</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.2.1-20260502.104126-1</value>
-        <updated>20260502104126</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.2.1-20260502.104126-1</value>
-        <updated>20260502104126</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.2.1-20260502.104126-1</value>
-        <updated>20260502104126</updated>
+        <value>1.2.1-20260502.104215-1</value>
+        <updated>20260502104215</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
-        <value>1.2.1-20260502.104126-1</value>
-        <updated>20260502104126</updated>
+        <value>1.2.1-20260502.104215-1</value>
+        <updated>20260502104215</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
