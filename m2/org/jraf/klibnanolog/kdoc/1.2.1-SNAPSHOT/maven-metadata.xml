@@ -3,22 +3,22 @@
   <groupId>org.jraf.klibnanolog</groupId>
   <artifactId>kdoc</artifactId>
   <versioning>
-    <lastUpdated>20260525102754</lastUpdated>
+    <lastUpdated>20260525102842</lastUpdated>
     <snapshot>
-      <timestamp>20260525.102754</timestamp>
+      <timestamp>20260525.102842</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.2.1-20260525.102754-1</value>
-        <updated>20260525102754</updated>
+        <value>1.2.1-20260525.102842-1</value>
+        <updated>20260525102842</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.2.1-20260525.102754-1</value>
-        <updated>20260525102754</updated>
+        <value>1.2.1-20260525.102842-1</value>
+        <updated>20260525102842</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
