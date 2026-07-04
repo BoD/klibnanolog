@@ -32,14 +32,15 @@ kotlin {
     compileSdk { version = release(36) }
   }
 
+  // All targets use println except Android
   applyDefaultHierarchyTemplate()
   sourceSets {
-    val notAndroidMain = create("notAndroidMain") {
+    val usePrintlnMain = create("usePrintlnMain") {
       dependsOn(commonMain.get())
     }
-    jvmMain.get().dependsOn(notAndroidMain)
-    nativeMain.get().dependsOn(notAndroidMain)
-    webMain.get().dependsOn(notAndroidMain)
+    jvmMain.get().dependsOn(usePrintlnMain)
+    nativeMain.get().dependsOn(usePrintlnMain)
+    webMain.get().dependsOn(usePrintlnMain)
 
     commonMain {
       dependencies {
