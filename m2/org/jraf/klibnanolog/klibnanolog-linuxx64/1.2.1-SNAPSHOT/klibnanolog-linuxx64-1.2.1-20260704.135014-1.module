@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibnanolog/1.2.1-SNAPSHOT/klibnanolog-1.2.1-SNAPSHOT.module",
+    "group": "org.jraf.klibnanolog",
+    "module": "klibnanolog",
+    "version": "1.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibnanolog-linuxX64Main-1.2.1-SNAPSHOT.klib",
+          "url": "klibnanolog-linuxx64-1.2.1-SNAPSHOT.klib",
+          "size": 10630,
+          "sha512": "b96aeeab9f4d4f773053e39d7213b95a2c85883313bf4f235b4f4cc3f8d3b53c6d955a912a7eada210f657075608bb94978aeb140c192851f0de878de6ed2ef8",
+          "sha256": "d2d0c29a7c65273b65095d4b24f7108022ca1320fddbcaa081e080248bef88da",
+          "sha1": "108429fc356413749d7ba9923b11ce4fd6561c8c",
+          "md5": "4903aa7ebfcffcf15e4542eefa4efc4e"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "klibnanolog-linuxx64-1.2.1-SNAPSHOT-sources.jar",
+          "url": "klibnanolog-linuxx64-1.2.1-SNAPSHOT-sources.jar",
+          "size": 4874,
+          "sha512": "7741e59ed147e69552c290c0cec8f0f265ab3f11f28366a35563607ceeb4cf4f55da543b0497ffb9fabdd70b12160b1e3a355bf912ad5b9b6a8db53e7b9bebc8",
+          "sha256": "442cefcc885296008572562b87ee0442793386fbd5d1891286dbfbbcbfba9e12",
+          "sha1": "0389ca20f3e8fe835475310968bc94de24a885b6",
+          "md5": "210ae50378f0596260a56080bf004292"
+        }
+      ]
+    }
+  ]
+}
