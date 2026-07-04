@@ -1,5 +1,9 @@
 # Next version (unreleased)
 
+# v1.2.1
+
+- Add iosArm64 and iosSimulatorArm64 targets
+
 # v1.2.0
 
 - Add Android target
