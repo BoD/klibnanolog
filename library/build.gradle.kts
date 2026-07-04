@@ -11,6 +11,8 @@ plugins {
 kotlin {
   jvm()
   macosArm64()
+  iosArm64()
+  iosSimulatorArm64()
   linuxX64()
   linuxArm64()
   js {
@@ -32,7 +34,7 @@ kotlin {
 
   applyDefaultHierarchyTemplate()
   sourceSets {
-    val notAndroidMain by creating {
+    val notAndroidMain = create("notAndroidMain") {
       dependsOn(commonMain.get())
     }
     jvmMain.get().dependsOn(notAndroidMain)

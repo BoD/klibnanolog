@@ -1,9 +1,9 @@
 [versions]
-kotlin = "2.3.21"
+kotlin = "2.4.0"
 librarian = "0.2.2-SNAPSHOT"
-kotlinx-datetime = "0.7.1"
-slf4j = "2.0.17"
-android = "9.2.0"
+kotlinx-datetime = "0.8.0"
+slf4j = "2.0.18"
+android = "9.2.1"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }

@@ -1,0 +1,61 @@
+public final class org/jraf/klibnanolog/LogKt {
+	public static final fun getLogLevel ()Lorg/jraf/klibnanolog/LogLevel;
+	public static final fun getLogToStdErr ()Z
+	public static final fun getTag ()Ljava/lang/String;
+	public static final fun logd (Ljava/lang/Object;)V
+	public static final fun logd (Ljava/lang/Throwable;Ljava/lang/Object;)V
+	public static final fun loge (Ljava/lang/Object;)V
+	public static final fun loge (Ljava/lang/Throwable;Ljava/lang/Object;)V
+	public static final fun logi (Ljava/lang/Object;)V
+	public static final fun logi (Ljava/lang/Throwable;Ljava/lang/Object;)V
+	public static final fun logw (Ljava/lang/Object;)V
+	public static final fun logw (Ljava/lang/Throwable;Ljava/lang/Object;)V
+	public static final fun setLogLevel (Lorg/jraf/klibnanolog/LogLevel;)V
+	public static final fun setLogToStdErr (Z)V
+	public static final fun setTag (Ljava/lang/String;)V
+}
+
+public final class org/jraf/klibnanolog/LogLevel : java/lang/Enum {
+	public static final field DEBUG Lorg/jraf/klibnanolog/LogLevel;
+	public static final field ERROR Lorg/jraf/klibnanolog/LogLevel;
+	public static final field INFO Lorg/jraf/klibnanolog/LogLevel;
+	public static final field NONE Lorg/jraf/klibnanolog/LogLevel;
+	public static final field WARNING Lorg/jraf/klibnanolog/LogLevel;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lorg/jraf/klibnanolog/LogLevel;
+	public static fun values ()[Lorg/jraf/klibnanolog/LogLevel;
+}
+
+public final class org/jraf/klibnanolog/VersionKt {
+	public static final field VERSION Ljava/lang/String;
+}
+
+public final class org/jraf/klibnanolog/slf4j/KLibNanoLogSLF4JLogger : org/slf4j/helpers/AbstractLogger {
+	public static final field INSTANCE Lorg/jraf/klibnanolog/slf4j/KLibNanoLogSLF4JLogger;
+	public fun getName ()Ljava/lang/String;
+	public fun isDebugEnabled ()Z
+	public fun isDebugEnabled (Lorg/slf4j/Marker;)Z
+	public fun isErrorEnabled ()Z
+	public fun isErrorEnabled (Lorg/slf4j/Marker;)Z
+	public fun isInfoEnabled ()Z
+	public fun isInfoEnabled (Lorg/slf4j/Marker;)Z
+	public fun isTraceEnabled ()Z
+	public fun isTraceEnabled (Lorg/slf4j/Marker;)Z
+	public fun isWarnEnabled ()Z
+	public fun isWarnEnabled (Lorg/slf4j/Marker;)Z
+}
+
+public final class org/jraf/klibnanolog/slf4j/KLibNanoLogSLF4JLoggerFactory : org/slf4j/ILoggerFactory {
+	public fun <init> ()V
+	public fun getLogger (Ljava/lang/String;)Lorg/slf4j/Logger;
+}
+
+public final class org/jraf/klibnanolog/slf4j/KLibNanoLogSLF4JServiceProvider : org/slf4j/spi/SLF4JServiceProvider {
+	public fun <init> ()V
+	public fun getLoggerFactory ()Lorg/slf4j/ILoggerFactory;
+	public fun getMDCAdapter ()Lorg/slf4j/spi/MDCAdapter;
+	public fun getMarkerFactory ()Lorg/slf4j/IMarkerFactory;
+	public fun getRequestedApiVersion ()Ljava/lang/String;
+	public fun initialize ()V
+}
+

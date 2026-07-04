@@ -1,5 +1,5 @@
 // Klib ABI Dump
-// Targets: [js, linuxArm64, linuxX64, macosArm64]
+// Targets: [iosArm64, iosSimulatorArm64, js, linuxArm64, linuxX64, macosArm64, wasmJs]
 // Rendering settings:
 // - Signature version: 2
 // - Show manifest properties: true
@@ -29,6 +29,9 @@ final var org.jraf.klibnanolog/logLevel // org.jraf.klibnanolog/logLevel|{}logLe
 final var org.jraf.klibnanolog/logToStdErr // org.jraf.klibnanolog/logToStdErr|{}logToStdErr[0]
     final fun <get-logToStdErr>(): kotlin/Boolean // org.jraf.klibnanolog/logToStdErr.<get-logToStdErr>|<get-logToStdErr>(){}[0]
     final fun <set-logToStdErr>(kotlin/Boolean) // org.jraf.klibnanolog/logToStdErr.<set-logToStdErr>|<set-logToStdErr>(kotlin.Boolean){}[0]
+final var org.jraf.klibnanolog/tag // org.jraf.klibnanolog/tag|{}tag[0]
+    final fun <get-tag>(): kotlin/String // org.jraf.klibnanolog/tag.<get-tag>|<get-tag>(){}[0]
+    final fun <set-tag>(kotlin/String) // org.jraf.klibnanolog/tag.<set-tag>|<set-tag>(kotlin.String){}[0]
 
 final fun org.jraf.klibnanolog/logd(kotlin/Any?) // org.jraf.klibnanolog/logd|logd(kotlin.Any?){}[0]
 final fun org.jraf.klibnanolog/logd(kotlin/Throwable, kotlin/Any?) // org.jraf.klibnanolog/logd|logd(kotlin.Throwable;kotlin.Any?){}[0]
