@@ -3,4 +3,3 @@ $dokka.linkExtension:html
 
 module:klibnanolog
 org.jraf.klibnanolog
-org.jraf.klibnanolog.slf4j
