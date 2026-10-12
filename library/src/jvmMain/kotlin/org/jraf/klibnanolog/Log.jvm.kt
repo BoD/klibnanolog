@@ -24,6 +24,23 @@
 
 package org.jraf.klibnanolog
 
+import org.slf4j.LoggerFactory
+
+private val logger = LoggerFactory.getLogger(tag)
+
 internal actual fun printLnStderr(message: String) {
   System.err.println(message)
+}
+
+internal actual fun log(level: LogLevel, message: String, throwable: Throwable?) {
+  if (level < logLevel) return
+  when (level) {
+    LogLevel.DEBUG -> logger.debug(message, throwable)
+    LogLevel.INFO -> logger.info(message, throwable)
+    LogLevel.WARNING -> logger.warn(message, throwable)
+    LogLevel.ERROR -> logger.error(message, throwable)
+    LogLevel.NONE -> {
+      // Should never happen
+    }
+  }
 }

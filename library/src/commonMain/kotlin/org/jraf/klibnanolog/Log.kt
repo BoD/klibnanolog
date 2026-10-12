@@ -36,10 +36,10 @@ enum class LogLevel {
 
 var logLevel = LogLevel.DEBUG
 
-// Ignored on Android
+// Ignored on Android and JVM
 var logToStdErr = false
 
-// Only used for Android
+// Used for Android and JVM
 var tag = "xxx"
 
 internal expect fun log(

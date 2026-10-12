@@ -38,7 +38,6 @@ kotlin {
     val usePrintlnMain = create("usePrintlnMain") {
       dependsOn(commonMain.get())
     }
-    jvmMain.get().dependsOn(usePrintlnMain)
     nativeMain.get().dependsOn(usePrintlnMain)
     webMain.get().dependsOn(usePrintlnMain)
 

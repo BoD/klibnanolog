@@ -1,5 +1,10 @@
 # Next version (unreleased)
 
+# v1.3.0
+
+- JVM now logs using SLF4J
+- Removed SLF4J adapter
+
 # v1.2.1
 
 - Add iosArm64 and iosSimulatorArm64 targets
